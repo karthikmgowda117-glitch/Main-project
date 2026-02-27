@@ -1,0 +1,42 @@
+INFO:     Started server process [61077]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+--- Initializing ResearchOrchestrator ---
+✅ Cognitive Core (Agents & FAISS) Loaded Successfully
+INFO:     127.0.0.1:49703 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49800 - "GET /research?topic=raman%20effect HTTP/1.1" 200 OK
+📋 PlannerAgent: Breaking down 'raman effect' into sub-tasks...
+INFO:     127.0.0.1:49840 - "GET /research?topic=gt%20650 HTTP/1.1" 200 OK
+📋 PlannerAgent: Breaking down 'gt 650' into sub-tasks...
+INFO:     127.0.0.1:49885 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49893 - "GET /research?topic=kk HTTP/1.1" 200 OK
+📋 PlannerAgent: Breaking down 'kk' into sub-tasks...
+INFO:     127.0.0.1:49893 - "GET /research?topic=kk HTTP/1.1" 200 OK
+📋 PlannerAgent: Breaking down 'kk' into sub-tasks...
+INFO:     127.0.0.1:49893 - "GET /research?topic=kk HTTP/1.1" 200 OK
+📋 PlannerAgent: Breaking down 'kk' into sub-tasks...
+INFO:     127.0.0.1:49897 - "GET /research?topic=kk HTTP/1.1" 200 OK
+📋 PlannerAgent: Breaking down 'kk' into sub-tasks...
+INFO:     127.0.0.1:49897 - "GET /research?topic=kk HTTP/1.1" 200 OK
+📋 PlannerAgent: Breaking down 'kk' into sub-tasks...
+INFO:     127.0.0.1:50251 - "GET /research?topic=gt%20650 HTTP/1.1" 200 OK
+📋 PlannerAgent: Breaking down 'gt 650' into sub-tasks...
+INFO:     127.0.0.1:50263 - "GET /research?topic=gt%20650 HTTP/1.1" 200 OK
+📋 PlannerAgent: Breaking down 'gt 650' into sub-tasks...
+INFO:     127.0.0.1:50338 - "OPTIONS /api/v1/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50339 - "OPTIONS /api/v1/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50338 - "GET /api/v1/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50338 - "GET /api/v1/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50373 - "GET /api/v1/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50373 - "GET /api/v1/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50439 - "GET /research?topic=gt%20650&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzcyMjE2NTc3fQ.p82hMAzRmt-wj1t0ALhq5W-eISQWSRsuE-zuZYDR62w HTTP/1.1" 200 OK
+📋 PlannerAgent: Breaking down 'gt 650' into sub-tasks...
+INFO:     127.0.0.1:50466 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50466 - "GET /api/v1/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50466 - "GET /api/v1/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50469 - "GET /research?topic=gt%20650&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzcyMjIxMDY5fQ.nvw78bWeI-WU8MX-n2GjVHzDPu6qrO49bea01wc9scY HTTP/1.1" 200 OK
+📋 PlannerAgent: Breaking down 'gt 650' into sub-tasks...
+INFO:     127.0.0.1:50472 - "GET /research?topic=test HTTP/1.1" 200 OK
+📋 PlannerAgent: Breaking down 'test' into sub-tasks...
+INFO:     127.0.0.1:50488 - "GET /research?topic=test HTTP/1.1" 200 OK
